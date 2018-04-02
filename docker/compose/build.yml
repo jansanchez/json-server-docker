@@ -5,7 +5,3 @@ services:
     image: js/node-wheezy-json
     build:
       context: ../recipes/node/
-      args:
-        USER: ${ENV_USER}
-        GID: ${ENV_GID}
-        UID: ${ENV_UID}
